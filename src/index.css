@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f7f9fb;
+  font-family: "Poppins", sans-serif;
+}
+.sidProfile {
+  background-color: white;
+  height: 400px;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+.cover {
+  height: 200px;
+  position: relative;
+}
+.cover img {
+  width: 100%;
+  height: 100%;
+}
+.profilImg {
+  position: absolute;
+  bottom: -50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.deatils {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+
+  text-align: center;
+  gap: 10px;
+}
+
+.post {
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+
+  justify-content: space-evenly;
+}
+.post-container {
+  background-color: white;
+  margin: 20px 0;
+  border-radius: 20px;
+  padding: 20px 0;
+}
+
+/* =============Profile css start============  */
+.banner-photo {
+  width: 100%;
+  height: 312px;
+  overflow-y: hidden;
+}
+.banner-photo img {
+  width: 100%;
+}
+.banner-deatils {
+  background-color: white;
+  display: flex;
+  gap: 25px;
+  padding-left: 25px;
+}
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border: 3px solid white;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile-pic img {
+  width: 100%;
+  height: 100%;
+}
+.profile-titel {
+  margin-top: 25px;
+  font-family: "Poppins", sans-serif;
+
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.location {
+  font-size: 12px;
+}
+.profile-subtitel {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 21px;
+  width: 500px;
+}
+.profile-pic {
+  position: relative;
+  top: -50px;
+}
+.css-1qlwcrq-MuiButtonGroup-root .MuiButtonGroup-grouped {
+  min-width: 425px !important;
+}
+.about {
+  background-color: white;
+  padding: 25px;
+}
+.about-sub {
+  margin: 15px 0;
+}
+.project {
+  background-color: white;
+  margin-top: 25px;
+  padding: 25px;
+}
+.project-titel {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 25px;
+  align-items: center;
+}
+.slider {
+  display: flex;
+  justify-content: space-between;
+}
+/* =============Profile css end============  */
+.expariance {
+  background-color: white;
+  padding: 25px;
+  margin-top: 25px;
+}
+.expariance:first-child {
+  border-bottom: 5px solid red;
+}
+.css-d0pxhj-MuiStack-root {
+  gap: 0 !important;
+}
